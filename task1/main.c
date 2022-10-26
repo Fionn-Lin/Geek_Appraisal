@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
         double y[10000];
         double a;
         printf("«Î ‰»Îa=");
-        scanf_s("%lf", &a);
+        scanf("%lf", &a);
         y[0] = a;
         for (int i = 1; i < 10000; i++) 
         {
